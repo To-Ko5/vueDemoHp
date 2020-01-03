@@ -2,14 +2,17 @@
   <div>
     <header-section />
     <nuxt />
+    <footer-section />
   </div>
 </template>
 
 <script>
 import header from '~/components/header.vue'
+import footer from '~/components/footer.vue'
 export default {
   components: {
-    headerSection: header
+    headerSection: header,
+    footerSection: footer
   }
 }
 </script>

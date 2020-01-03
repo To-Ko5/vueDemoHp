@@ -20,6 +20,8 @@
 <style lang="sass" scoped>
     .header
           padding: 20px 0
+          box-shadow: 0 0 1px 1px #333
+          margin-bottom: 10px
           .container 
                     display: flex
                     justify-content: space-between
